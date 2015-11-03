@@ -17,6 +17,6 @@ Route::get('/', function () {
 });
 
 Route::get('{id}',function ($id) {
-	return 'Coucou ' . $id;
+	return 'Coucou toi:  ' . $id;
 
 });
